@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*** navigation bar ***/
+#nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #1b1b1b;
+}
+
+    /* <a> after class=linav will appear following the below command */
+#linav a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 15px;
+    text-decoration: none;
+    overflow: hidden;
+}
+
+#linav a:hover:not(.active) {
+    background-color: black;
+}
+
+.active {
+    background-color: black;
+}
+
+/*** end navigation bar ***/
+
+footer {
+    text-align: center;
+    background-color: #1a1a1a;
+    color: whitesmoke;
+    padding: 15px;
+    font-size: 15px;
+    bottom: 10px;
+    width: 100%;
+}
+
+body {
+    background-color: gainsboro;
+}
+
+div h2 {
+    background-color: rgb(190, 190, 190);
+    margin: 20px;
+    margin-bottom: 0;
+    padding: 20px 0 0 25px;
+}
+
+.maindiv {
+    display: flex;
+    padding: 20px;
+    margin: 20px;
+    margin-top: 0;
+    border: 4px hidden;
+    background-color: rgb(190, 190, 190);
+    /*float: left;*/
+}
+
+/*.picdiv{
+    position: left;
+    display: flex;
+    background-color: #1a1a1a;
+    padding-top: 0px;
+}*/
+
+.img {
+    text-align: start;
+    width: 300px;
+    height: 200px;
+    background-color: whitesmoke;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.345), 0 6px 20px 0 rgba(0, 0, 0, 0.345);
+    margin-inline: 10px;
+    margin-bottom: 10px;
+    float: left;
+}
+
+img {
+    width:250px;
+    height:150px;
+    object-fit: cover;
+}
+.alt {
+    text-align: center;
+    padding: 10px 20px;
+}
+.pages {
+    text-decoration: none;
+    color: gray;
+}
