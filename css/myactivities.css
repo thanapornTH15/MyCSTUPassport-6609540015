@@ -14,7 +14,7 @@
     background-color: #1b1b1b;
 }
 
-    /* <a> after class=linav will appear following the below command */
+/* <a> after class=linav will appear following the below command */
 #linav a {
     float: left;
     display: block;
@@ -51,7 +51,8 @@ body {
     background-color: gainsboro;
 }
 
-div h2 {
+/******************main activity page style******************/
+.div h2 {
     background-color: rgb(190, 190, 190);
     margin: 20px;
     margin-bottom: 0;
@@ -91,11 +92,27 @@ img {
     height:150px;
     object-fit: cover;
 }
+
 .alt {
     text-align: center;
     padding: 10px 20px;
 }
+
 .pages {
     text-decoration: none;
     color: gray;
+}
+
+/******************activities pages style******************/
+#headdiv h2 {
+    margin: 10px;
+}
+#headdiv a {
+    display: inline-block;
+    text-decoration: none;
+    color: grey;
+    padding: 10px;
+}
+#headdiv a:hover {
+    background-color: lightgrey;
 }
