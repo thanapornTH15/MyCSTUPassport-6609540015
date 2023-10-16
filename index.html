@@ -15,82 +15,101 @@
             <li id="linav" style="float:right"><a href="https://www.google.com" target="_blank">Search</a></li>
         </ul>
 
-        <header>
-            <h1 style="text-align: center;"><b>Hello!</b> Welcome to my homepage <span> &lt;3 </span></h1>
-        </header>
-
-        <section class="divleft">
-        <div>
-            <img src="image/mypic.jpg" alt="mypic" width="180" height="320" /> <br> <br>
-            <video src="VDO/myvideo.mp4" width="180" height="320" controls> Oops! Sorry, can't play this video
-                <span>:&#40;</span></video>
+        <div id="div1">
         </div>
-        </section>
 
-        <main>
-        <h2 style="color: grey; text-align: center;">&lt;About me&gt;</h2>
-        <div class="margin">
-            <p>
-                <code style="font-size: large;">Hello!</code> , My name is <span>Thanaporn Thongsrichan</span>. You can
-                call me Khaow
-                (&#127806;) for nickname.
-                (I'm not sure how to write my nickname because there are many ways to write :/ Sometimes I think I want
-                to turn it into Rice &#x2012; just think it's easy to write in English and still have the same meaning
-                &#x2012; but it's just random thought anyway ¯\_(シ)_/¯)
-                <br>I'm a <a href="https://cs.sci.tu.ac.th/" target="_blank" style="color: #dc9703;">Computer
-                    Science</a> student in the Faculty of Science and Technology
-                at <a href="https://tu.ac.th" target="_blank" style="color: crimson;">Thammasat University</a>.<br>
-            </p>
-        </div>
-        <br>
-        <div class="margin">
-            <p>
-                These are a few things that I'm interested in:
-            <ul>
-                <li>Coding</li>
-                <li>Web Design</li>
-                <li>Data Science</li>
-                <li>Graphic Design</li>
-                <li>Information Technology</li>
-                <li>etc.</li>
-            </ul><br>
-            <!--add bottom or text border-->
-            Want to know more about me? <em>Click below!</em><br>
-            <details class="outset">
-                <summary>
-                    [Here are some of my favorite things!]
-                </summary>
-                <ul>
-                    <details class="under">
-                        <summary>[Hobbies]</summary>
-                        <ul>
-                            <li>Playing Video Games</li>
-                            <li>Board Games (beginner)</li>
-                            <li>Photography (beginner)</li>
-                            <li>Drawing (not often lately)</li>
-                        </ul>
-                    </details>
-                    <li>Sleeping</li>
-                    <li>Listen to musics</li>
-                    <li>Wacthing movies</li>
-                    <li>Green tea</li>
-                    <li>Animals</li>
-                </ul>
-            </details>
-            </p>
-        </div> <br><br><br>
-        </main>
+        <div class="row">
+            <div class="side">
+                <div id="pic">
+                    <img src="image/mypic.jpg" alt="mypic" width="180" height="180">
+                </div>
+                <br><br>
+                <h3 style="text-align: center;">Hello!<br>Welcome to my homepage <span> &lt;3 </span></h3><br><br>
+                <p><b>Email:</b> thanaporn.thongs@dome.tu.ac.th</p><br>
+                <p><b>GitHub:</b> .</p><br>
+                <div id="vid"><video src="VDO/myvideo.mp4" width="200" height="200" controls> Oops! Sorry, can't play this video<span>:&#40;</span></video></div>
+                <div id="block">
+                </div>
+            </div>
 
-        <div>
-            <figure style="text-align: center;">
-            <img src="https://media.tenor.com/VOf_IsXVKfsAAAAC/meme-elmo.gif" alt="enjoy!" width="120" height="100">
-            <p><strong>Have a great day!</strong></p>
-            </figure> <br>
+            <div class="main">
+                <div class="name">
+                    <p style="font-size: 20px; color: #f1f1f1;">It's me</p>
+                    <span><b>Thanaporn</b></span><br>
+                    <b>Thongsrichan</b></span>
+                    <!--<h1 class="name">Thanaporn
+                       <br>Thongsrichan
+                    </h1>-->
+                </div>
+                <div class="content">
+                    <h2 style="color: grey;">&lt;About me&gt;</h2><br>
+                    <p>
+                        <code style="font-size: large;">Hello!</code> , My name is <span>Thanaporn Thongsrichan</span>. You can
+                        call me Khaow (&#127806;) for nickname.
+                        (I'm not sure how to write my nickname because there are many ways to write :/ Sometimes I think I want
+                        to turn it into Rice &#x2012; just think it's easy to write in English and still have the same meaning
+                        &#x2012; but it's just random thought anyway ¯\_(シ)_/¯)
+                        <br>I'm a <a href="https://cs.sci.tu.ac.th/" target="_blank" style="color: #dc9703;">Computer
+                            Science</a> student in the Faculty of Science and Technology
+                        at <a href="https://tu.ac.th" target="_blank" style="color: crimson;">Thammasat University</a>.<br>
+                    </p>
+                </div>
+
+                <div class="content">
+                    <p>
+                        These are a few things that I'm interested in:
+                        <ul class="li">
+                            <li>Coding</li>
+                            <li>Web Design</li>
+                            <li>Data Science</li>
+                            <li>Graphic Design</li>
+                            <li>Information Technology</li>
+                            <li>etc.</li>
+                        </ul><br>
+
+                        Want to know more about me? <em style="color: gray;">Click below!</em><br>
+                        <details class="outset">
+                            <summary id="click">
+                                [Here are some of my favorite things!]
+                            </summary>
+                            <ul class="li">
+                                <details class="under"><summary>[Hobbies]</summary>
+                                    <ul>
+                                        <li>Playing Video Games</li>
+                                        <li>Board Games (beginner)</li>
+                                        <li>Photography (beginner)</li>
+                                        <li>Drawing (not often lately)</li>
+                                    </ul></details>
+                                <li>Sleeping</li>
+                                <li>Listen to musics</li>
+                                <li>Wacthing movies</li>
+                                <li>Green tea</li>
+                                <li>Animals</li>
+                            </ul>
+                        </details>
+                    </p>
+                </div>
+                <br><br><br>
+                <div id="q"><q>
+                    <em><br>
+                        'Cause there were pages turned with the bridges burned<br>
+                        Everything you lose is a step you take<br>
+                        So make the friendship bracelets<br>
+                        Take the moment and taste it<br>
+                        You've got no reason to be afraid</em><br>
+                </q><br>
+                <span>-<em>You're on Your Own, Kid </em> - Taylor Swift</span></div><br>
+                <figure>
+                    <img src="https://media.tenor.com/VOf_IsXVKfsAAAAC/meme-elmo.gif" alt="enjoy!" width="120" height="100">
+                    <p><strong>Have a great day!</strong></p>
+                </figure>
+            </div>
         </div>
         <footer>
-            <p>This website was created for the <span><i>CS100</i></span> subject<br>
+            <p>This website was created for the <span><i>CS100</i></span> subject <br>
             and This page is for the <cite>"My CSTU Passport: Homepage"</cite> assignment.
-            <br>29/09/2023
+            <br>09/10/2023<br>
+            <span><a href="https://courses.cs.tu.ac.th/" id="alink">CSTU</a></span>
             </p>
         </footer>
     </body>

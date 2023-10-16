@@ -5,10 +5,6 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-header {
-    object-position: left;
-    overflow: hidden;
-}
 /*** navigation bar ***/
 #nav {
     list-style-type: none;
@@ -18,7 +14,7 @@ header {
     background-color: #1b1b1b;
 }
 
-    /* <a> after class=linav will appear following the below command */
+/* <a> after class=linav will appear following the below command */
 #linav a {
     float: left;
     display: block;
@@ -41,54 +37,82 @@ header {
 
 /*** end navigation bar ***/
 
-h1 {
-    background-color: darkgrey;
-    padding: 30px;
+
+#div1 {
+    background-color: #aaa;
+    width: 100%;
+    padding: 120px;
+}
+
+#block {
+    display: block;
+    width: 100px;
+    height: 100px;
+}
+
+.name {
+    position: relative;
+    padding: 0px;
+    margin-top: -105px;
+    text-align: left;
+    margin-inline: auto;
+    font-size: 50px;
+    overflow: hidden;
+    display:block;
+}
+
+#pic {
+    position: relative;
+    padding: 10px;
+    margin-top: -130px;
+    text-align: center;
+    width: 200px;
+    height: 200px;
+    margin-inline:auto;
+    background-color: whitesmoke;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.345), 0 6px 20px 0 rgba(0, 0, 0, 0.345);
+}
+
+#pic img {
+    object-fit: cover; /*crop*/
+    object-position: 10% 55%; /*left / top*/
+    margin: 0px;
+    padding: 0px;
     text-align: center;
 }
 
-body {
+#vid {
+    color: #fff;
+    text-align: center;
+    object-fit: cover;
+}
+video {
+    background-color: #fff;
+}
+
+/* Column container */
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* Create two unequal columns that sits next to each other */
+/* Sidebar/left column */
+.side {
+    flex: 30%;
     background-color: gainsboro;
+    padding: 30px;
 }
 
-h2 {
-    padding-top: 0px;
-    padding-bottom: 10px;
-}
-
-/*section div {
-    -webkit-flex: 1;
-    -ms-flex: 1;
-    flex: 1;
-    text-align: center;
-    padding-top: 25px;
-}*/
-
-.divleft {
-    float: left;
-    display: flex;
-    flex-direction: column;
-    width: 30%;
-    height: 120vh;
+/* Main column */
+.main {
+    flex: 70%;
+    background-color: #f1f1f1;
     padding: 20px;
-    background-color: #eeeeee;}
-
-.left {
-    float: left;
-    display: flex;
 }
 
-.margin {
-    margin-left: 200px;
-}
-
-main {
-    padding: 20px;
-    padding-left: 50px;
-    -webkit-flex: 2;
-    -ms-flex: 2;
-    flex: 2;
-    height: 100vh;
+.content {
+    padding: 30px;
 }
 
 code {
@@ -112,9 +136,18 @@ details.under {
     border-left: 3px solid black;
 }
 
-li {
-    padding-left: 0px;
+.li {
+    padding-left: 30px;
     list-style-position: inside;
+}
+
+#q {
+    text-align: center;
+    color: darkgray;
+}
+
+figure {
+    text-align: center;
 }
 
 footer {
@@ -125,4 +158,24 @@ footer {
     font-size: 15px;
     bottom: 10px;
     width: 100%;
+}
+
+#alink {
+    color: #aaa;
+    text-decoration: none;
+}
+
+#alink:hover {
+    color: lightgray;
+}
+
+#click {
+    list-style-type: none;
+    padding-left: 10px;
+}
+.outset:hover {
+    background-color: #f9f9f9;
+}
+.under:hover {
+    background-color: #e9e9e9;
 }
